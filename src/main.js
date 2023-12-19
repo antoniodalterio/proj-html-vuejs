@@ -18,8 +18,9 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faPinterestP } from '@fortawesome/free-brands-svg-icons';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 /* add icons to the library */
-library.add(faPhone, faFacebookF, faXTwitter, faPinterestP);
+library.add(faPhone, faFacebookF, faXTwitter, faPinterestP, faMagnifyingGlass);
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

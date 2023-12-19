@@ -1,1 +1,11 @@
 @use './variables' as *;
+
+.ad-btn {
+  border-radius: 50px;
+  padding: 15px 40px;
+  background: $bg-gradient;
+  background: linear-gradient(90deg, $bg-gradient 11%, $bg-body 90%);
+
+  text-transform: uppercase;
+  color: white;
+}
