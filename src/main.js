@@ -1,5 +1,10 @@
 import { createApp } from 'vue';
+// file scss
 import './assets/scss/style.scss';
+
+// Font nunito
+import '@fontsource/nunito';
+
 import App from './App.vue';
 
 /* import the fontawesome core */
@@ -11,6 +16,6 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 /* import specific icons */
 
 /* add icons to the library */
-library.add().component('font-awesome-icon', FontAwesomeIcon);
+library.add();
 
-createApp(App).mount('#app');
+createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
