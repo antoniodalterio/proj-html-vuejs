@@ -1,0 +1,9 @@
+@use '_partials/variables' as *;
+@use '_partials/common' as *;
+
+// import Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  background-color: $bg-body;
+}
