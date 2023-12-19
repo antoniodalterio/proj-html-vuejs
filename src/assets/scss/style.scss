@@ -1,8 +1,9 @@
+// import Bootstrap
+@use 'bootstrap/scss/bootstrap';
+
 @use '_partials/variables' as *;
 @use '_partials/common' as *;
-
-// import Bootstrap
-@import 'bootstrap/scss/bootstrap';
+@use '_partials/reset' as *;
 
 body {
   background-color: $bg-body;

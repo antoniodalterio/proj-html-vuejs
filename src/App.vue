@@ -1,9 +1,14 @@
-<script></script>
+<script>
+import HeaderApp from './components/HeaderApp.vue';
+export default {
+  components: {
+    HeaderApp,
+  },
+};
+</script>
 
 <template>
-  <h1 class="text-center text-uppercase fw-bolder">
-    helloooooooooooooooooooooooo
-  </h1>
+  <HeaderApp></HeaderApp>
 </template>
 
 <style></style>
