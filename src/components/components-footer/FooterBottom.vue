@@ -1,2 +1,6 @@
-<script></script>
+<script>
+export default {
+  name: 'FooterBottom',
+};
+</script>
 <template></template>

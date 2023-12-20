@@ -4,6 +4,7 @@
 @use '_partials/variables' as *;
 @use '_partials/common' as *;
 @use '_partials/reset' as *;
+@use '_partials/typography' as *;
 
 body {
   font-family: $fontNunito;
