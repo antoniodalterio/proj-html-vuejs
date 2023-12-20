@@ -55,7 +55,7 @@ export default {
 };
 </script>
 <template>
-  <div class="container py-3 d-flex justify-content-between align-items-center">
+  <div class="container py-4 d-flex justify-content-between align-items-center">
     <img src="../../assets/img/cropped-Group-39-2x.png" alt="Logo" />
     <ul class="d-flex gap-4 my-0">
       <li v-for="li in nav" class="list-group">
@@ -63,7 +63,7 @@ export default {
       </li>
     </ul>
     <div class="d-flex gap-4">
-      <button class="ad-btn">purchase</button>
+      <button class="ad-btn btn-header">purchase</button>
       <div class="d-flex align-items-center">
         <div class="mx-2 icon-glass" @click="showInput()">
           <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
@@ -89,5 +89,11 @@ export default {
 
 input {
   outline: 1px solid $bg-body;
+}
+
+li {
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
 }
 </style>

@@ -8,4 +8,34 @@
 
   text-transform: uppercase;
   color: white;
+
+  &:hover {
+    background: rgb(105, 105, 105);
+    background: linear-gradient(
+      90deg,
+      rgba(105, 105, 105, 1) 0%,
+      rgba(0, 0, 0, 1) 76%
+    );
+  }
+}
+
+.button-select {
+  background: rgb(105, 105, 105);
+  background: linear-gradient(
+    90deg,
+    rgba(105, 105, 105, 1) 0%,
+    rgba(0, 0, 0, 1) 76%
+  );
+  padding: 5px 15px;
+  border-radius: 50px;
+
+  button {
+    padding: 3px 20px;
+    color: white;
+
+    &:hover {
+      background: linear-gradient(90deg, $bg-gradient 11%, $bg-body 90%);
+      border-radius: 50px;
+    }
+  }
 }
