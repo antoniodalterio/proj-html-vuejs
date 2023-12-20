@@ -6,7 +6,7 @@ export default {
 
 <template>
   <section class="overflow-hidden">
-    <div class="container">
+    <div class="ad-container">
       <div class="row position-relative">
         <div class="col-5">
           <p class="text-uppercase jumbo-p">17 Years of Experience</p>
@@ -92,7 +92,7 @@ section {
       scale: 1.4;
       top: 10px;
       object-fit: cover;
-      right: -250px;
+      right: -70px;
       height: 100%;
     }
   }
