@@ -9,27 +9,27 @@
   border-radius: 50px;
   padding: 15px 40px;
   background: $bg-gradient;
-  background: linear-gradient(90deg, $bg-gradient 11%, $bg-body 90%);
+  background: linear-gradient(45deg, $bg-gradient 0%, $bg-body 67%);
 
   text-transform: uppercase;
   color: white;
 
   &:hover {
-    background: rgb(105, 105, 105);
+    background: rgb(103, 103, 103);
     background: linear-gradient(
-      90deg,
-      rgba(105, 105, 105, 1) 0%,
-      rgba(0, 0, 0, 1) 76%
+      45deg,
+      rgba(103, 103, 103, 1) 0%,
+      rgba(0, 0, 0, 1) 56%
     );
   }
 }
 
 .button-select {
-  background: rgb(105, 105, 105);
+  background: rgb(103, 103, 103);
   background: linear-gradient(
-    90deg,
-    rgba(105, 105, 105, 1) 0%,
-    rgba(0, 0, 0, 1) 76%
+    45deg,
+    rgba(103, 103, 103, 1) 0%,
+    rgba(0, 0, 0, 1) 56%
   );
   padding: 5px 15px;
   border-radius: 50px;
@@ -49,4 +49,14 @@
   writing-mode: vertical-rl;
   rotate: 180deg;
   font-size: 12px;
+}
+
+header,
+footer {
+  background: rgb(103, 103, 103);
+  background: linear-gradient(
+    45deg,
+    rgba(103, 103, 103, 1) 0%,
+    rgba(0, 0, 0, 1) 56%
+  );
 }
