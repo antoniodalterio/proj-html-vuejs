@@ -42,7 +42,7 @@ export default {
 };
 </script>
 <template>
-  <section>
+  <section class="">
     <div class="ad-container">
       <!--  row divisa in 2 colonne -->
       <div class="row">
@@ -64,11 +64,19 @@ export default {
       <!--  row divisa in 2 colonne -->
 
       <!--  row di immagini -->
-      <div class="row mt-5">
-        <div class="col-3 box" v-for="img in this.images">
-          <img :src="img.src" :alt="img.alt" class="rounded" />
+
+      <div class="row mt-5 position-relative align-items-center">
+        <div class="row col-11">
+          <div class="col-3 box" v-for="img in this.images">
+            <img :src="img.src" :alt="img.alt" class="rounded" />
+          </div>
+        </div>
+
+        <div class="vertical-text px-5 col">
+          17 years of experience helping people for best solutions
         </div>
       </div>
+
       <!--  row di immagini -->
 
       <div class="text-center mt-5 pt-5">
@@ -88,5 +96,9 @@ h2 {
   img {
     width: 100%;
   }
+}
+
+.vertical-text {
+  right: -50px;
 }
 </style>

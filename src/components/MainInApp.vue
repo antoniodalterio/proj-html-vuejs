@@ -2,12 +2,14 @@
 import MainSection1 from './components-main/MainSection1.vue';
 import MainSection2 from './components-main/MainSection2.vue';
 import MainSection3 from './components-main/MainSection3.vue';
+import MainSection4 from './components-main/MainSection4.vue';
 export default {
   name: 'MainApp',
   components: {
     MainSection1,
     MainSection2,
     MainSection3,
+    MainSection4,
   },
 };
 </script>
@@ -15,9 +17,10 @@ export default {
   <MainSection1></MainSection1>
   <MainSection2></MainSection2>
   <MainSection3></MainSection3>
+  <MainSection4></MainSection4>
 </template>
 <style scoped lang="scss">
 section {
-  padding: 120px 0;
+  padding: 200px 0;
 }
 </style>
