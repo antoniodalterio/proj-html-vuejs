@@ -45,7 +45,7 @@ export default {
 @use '../../assets/scss/_partials/variables' as *;
 
 section {
-  padding: 120px 0;
+  background-color: $bg-secondary;
 
   h2 {
     padding-right: 300px;

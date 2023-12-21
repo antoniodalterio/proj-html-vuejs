@@ -9,7 +9,7 @@ export default {
 <template>
   <header class="bg-dark text-white py -1">
     <!-- contenitore HeaderTop -->
-    <div class="container d-flex justify-content-between align-items-center">
+    <div class="ad-container d-flex justify-content-between align-items-center">
       <!-- div col 1 -->
       <div>
         <span><font-awesome-icon icon="fa-solid fa-phone" /></span>

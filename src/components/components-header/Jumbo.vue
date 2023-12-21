@@ -55,7 +55,7 @@ export default {
 @use '../../assets/scss/_partials/common' as *;
 
 section {
-  background-color: #f9f9f9;
+  background-color: $bg-secondary;
 
   .col-5 {
     margin-top: 150px;
@@ -68,7 +68,7 @@ section {
 
     h2 {
       font-weight: bolder;
-      padding: 0 20px 0 0;
+      padding: 0 200px 0 0;
       font-size: 50px;
 
       span {
@@ -89,10 +89,11 @@ section {
 
   .col {
     img {
-      scale: 1.4;
+      scale: 1.6;
       top: 10px;
       object-fit: cover;
-      right: -70px;
+      right: 10px;
+
       height: 100%;
     }
   }

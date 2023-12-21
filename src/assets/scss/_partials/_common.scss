@@ -8,15 +8,15 @@
 .ad-btn {
   border-radius: 50px;
   padding: 15px 40px;
-  background: $bg-gradient;
-  background: linear-gradient(45deg, $bg-gradient 0%, $bg-body 67%);
+  background: $gradient-primary;
+  background: linear-gradient(45deg, $gradient-primary 0%, $black 100%);
 
   text-transform: uppercase;
   color: white;
 
   &:hover {
-    background: $gradient-primary;
-    background: linear-gradient(45deg, $gradient-primary 0%, $black 100%);
+    background: $bg-gradient;
+    background: linear-gradient(45deg, $bg-gradient 0%, $bg-body 67%);
   }
 }
 

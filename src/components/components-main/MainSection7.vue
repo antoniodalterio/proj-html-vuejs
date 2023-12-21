@@ -47,7 +47,7 @@ export default {
       <div class="ad-border"></div>
       <div class="ad-border-2"></div>
     </div>
-    <ul class="row ad-container">
+    <ul class="row ad-container vert-text">
       <li v-for="li in cards" class="boxes col-4 position-relative list-group">
         <div class="w-100">
           <img :src="li.src" alt="" class="img-fluid rounded shadow-lg" />
@@ -108,6 +108,15 @@ export default {
 @use '../../assets/scss/_partials/variables' as *;
 
 // scss del primo container
+.vert-text {
+  &::before {
+    content: '17 years of experience helping people for best solutions';
+    position: absolute;
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+    left: 50px;
+  }
+}
 .ad-container {
   .badg {
     width: 75%;

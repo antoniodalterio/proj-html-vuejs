@@ -55,7 +55,9 @@ export default {
 };
 </script>
 <template>
-  <div class="container py-4 d-flex justify-content-between align-items-center">
+  <div
+    class="ad-container py-4 d-flex justify-content-between align-items-center"
+  >
     <img src="../../assets/img/cropped-Group-39-2x.png" alt="Logo" />
     <ul class="d-flex gap-4 my-0">
       <li v-for="li in nav" class="list-group">

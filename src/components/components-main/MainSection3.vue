@@ -43,7 +43,7 @@ export default {
 </script>
 <template>
   <section class="">
-    <div class="ad-container">
+    <div class="ad-container position-relative">
       <!--  row divisa in 2 colonne -->
       <div class="row">
         <div class="d-flex mb-3">
@@ -73,16 +73,16 @@ export default {
 
       <!--  row di immagini -->
 
-      <div class="row mt-5 position-relative align-items-center">
-        <div class="row col-11">
+      <div class="row vert-text mt-5 position-relative align-items-center">
+        <div class="row col-12">
           <div class="col-3 box" v-for="img in this.images">
             <img :src="img.src" :alt="img.alt" class="rounded" />
           </div>
         </div>
 
-        <div class="vertical-text px-5 col">
+        <!-- <div class="vertical-text px-5 col">
           17 years of experience helping people for best solutions
-        </div>
+        </div> -->
       </div>
 
       <!--  row di immagini -->
@@ -93,7 +93,20 @@ export default {
     </div>
   </section>
 </template>
+
 <style scoped lang="scss">
+@use '../../assets/scss/_partials/variables' as *;
+
+.vert-text {
+  &::before {
+    content: '17 years of experience helping people for best solutions';
+    position: absolute;
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+    right: -50px;
+  }
+}
+
 h2 {
   padding-right: 150px;
 }
@@ -103,10 +116,9 @@ h2 {
 
   img {
     width: 100%;
+    &:hover {
+      scale: 1.1;
+    }
   }
-}
-
-.vertical-text {
-  right: -50px;
 }
 </style>

@@ -45,9 +45,9 @@ export default {
 </script>
 <template>
   <section>
-    <div class="ad-container">
+    <div class="ad-container position-relative">
       <div class="row">
-        <div class="col-4 my-3">
+        <div class="col-4">
           <h2 class="lh-base">
             We Are Here To Make Your <span>Website</span> Look More
             <span>Elegant</span> And Stylish!
@@ -75,9 +75,9 @@ export default {
               </p>
             </li>
           </ul>
-          <div class="vertical-text px-3">
+          <!-- <div class="vertical-text px-3">
             17 years of experience helping people for best solutions
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -90,6 +90,15 @@ export default {
 
 .row {
   align-items: center;
+
+  &::before {
+    content: '17 years of experience helping people for best solutions';
+    position: absolute;
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+    right: -50px;
+    top: 50px;
+  }
 
   h2 {
     padding-right: 155px;

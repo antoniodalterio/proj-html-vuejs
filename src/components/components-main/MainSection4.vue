@@ -57,6 +57,10 @@ export default {
 <style scoped lang="scss">
 @use '../../assets/scss/_partials/variables' as *;
 
+section {
+  background-color: $bg-secondary;
+}
+
 .box-1,
 .box-2 {
   width: 55%;

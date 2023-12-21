@@ -139,6 +139,9 @@ export default {
 <style scoped lang="scss">
 @use '../../assets/scss/_partials/variables' as *;
 
+section {
+  background-color: $bg-secondary;
+}
 .boxes {
   width: calc(100% / 3 - 80px);
   background: $gradient-primary;
