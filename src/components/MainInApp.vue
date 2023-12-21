@@ -3,6 +3,7 @@ import MainSection1 from './components-main/MainSection1.vue';
 import MainSection2 from './components-main/MainSection2.vue';
 import MainSection3 from './components-main/MainSection3.vue';
 import MainSection4 from './components-main/MainSection4.vue';
+import MainSection5 from './components-main/MainSection5.vue';
 export default {
   name: 'MainApp',
   components: {
@@ -10,6 +11,7 @@ export default {
     MainSection2,
     MainSection3,
     MainSection4,
+    MainSection5,
   },
 };
 </script>
@@ -18,6 +20,7 @@ export default {
   <MainSection2></MainSection2>
   <MainSection3></MainSection3>
   <MainSection4></MainSection4>
+  <MainSection5></MainSection5>
 </template>
 <style scoped lang="scss">
 section {
