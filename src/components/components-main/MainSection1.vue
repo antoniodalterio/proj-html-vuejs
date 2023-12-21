@@ -98,6 +98,10 @@ export default {
 
   li {
     width: calc(100% / 2 - 20px);
+    &:hover {
+      background: $bg-gradient;
+      background: linear-gradient(45deg, $bg-gradient 0%, $bg-body 67%);
+    }
   }
 
   .title {

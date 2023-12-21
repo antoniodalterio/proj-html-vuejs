@@ -5,6 +5,7 @@ import MainSection3 from './components-main/MainSection3.vue';
 import MainSection4 from './components-main/MainSection4.vue';
 import MainSection5 from './components-main/MainSection5.vue';
 import MainSection6 from './components-main/MainSection6.vue';
+import MainSection7 from './components-main/MainSection7.vue';
 export default {
   name: 'MainApp',
   components: {
@@ -14,6 +15,7 @@ export default {
     MainSection4,
     MainSection5,
     MainSection6,
+    MainSection7,
   },
 };
 </script>
@@ -24,6 +26,7 @@ export default {
   <MainSection4></MainSection4>
   <MainSection5></MainSection5>
   <MainSection6></MainSection6>
+  <MainSection7></MainSection7>
 </template>
 <style scoped lang="scss">
 section {
