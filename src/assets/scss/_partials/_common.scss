@@ -15,22 +15,14 @@
   color: white;
 
   &:hover {
-    background: rgb(103, 103, 103);
-    background: linear-gradient(
-      45deg,
-      rgba(103, 103, 103, 1) 0%,
-      rgba(0, 0, 0, 1) 56%
-    );
+    background: $gradient-primary;
+    background: linear-gradient(45deg, $gradient-primary 0%, $black 100%);
   }
 }
 
 .button-select {
-  background: rgb(103, 103, 103);
-  background: linear-gradient(
-    45deg,
-    rgba(103, 103, 103, 1) 0%,
-    rgba(0, 0, 0, 1) 56%
-  );
+  background: rgb(68, 68, 68);
+  background: linear-gradient(45deg, $gradient-primary 0%, $black 100%);
   padding: 5px 15px;
   border-radius: 50px;
 
@@ -53,10 +45,10 @@
 
 header,
 footer {
-  background: rgb(103, 103, 103);
-  background: linear-gradient(
-    45deg,
-    rgba(103, 103, 103, 1) 0%,
-    rgba(0, 0, 0, 1) 56%
-  );
+  background: $gradient-primary;
+  background: linear-gradient(45deg, $gradient-primary 0%, $black 100%);
+}
+
+.different-test {
+  color: $bg-body;
 }

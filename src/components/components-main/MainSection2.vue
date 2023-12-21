@@ -66,9 +66,9 @@ section {
       height: 100%;
       background: rgb(149, 225, 96);
       background: linear-gradient(
-        90deg,
-        rgba(149, 225, 96, 0.6615021008403361) 0%,
-        rgba(0, 217, 166, 0.8211659663865546) 30%
+        45deg,
+        $bg-gradient-trasparent 0%,
+        $bg-body-trasparent 67%
       );
     }
   }
