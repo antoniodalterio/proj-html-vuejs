@@ -46,10 +46,18 @@ export default {
     <div class="ad-container">
       <!--  row divisa in 2 colonne -->
       <div class="row">
+        <div class="d-flex mb-3">
+          <div class="ad-border"></div>
+          <div class="ad-border-2"></div>
+        </div>
         <h2 class="col-6">
           Our recent <span class="different-test">web designs</span> & some
           examples of past <span class="different-test">projects</span>
         </h2>
+        <div class="d-flex my-3">
+          <div class="ad-border"></div>
+          <div class="ad-border-2"></div>
+        </div>
         <div class="col-6 d-flex align-items-end">
           <p>
             Far far awayr behind the word mountains, far from the countries

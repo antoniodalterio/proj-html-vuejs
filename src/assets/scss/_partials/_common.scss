@@ -51,3 +51,19 @@ footer {
 .different-test {
   color: $bg-body;
 }
+
+.ad-border {
+  width: 5px;
+  background: $bg-gradient;
+  background: linear-gradient(45deg, $bg-gradient 0%, $bg-body 67%);
+  height: 4px;
+  border-radius: 20px;
+}
+.ad-border-2 {
+  width: 50px;
+  background: $bg-gradient;
+  background: linear-gradient(45deg, $bg-gradient 0%, $bg-body 67%);
+  height: 4px;
+  border-radius: 20px;
+  margin-left: 5px;
+}

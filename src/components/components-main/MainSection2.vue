@@ -24,6 +24,10 @@ export default {
       </div>
       <div class="col-4 p-5">
         <h2 class="lh-base">learn more about Our <span>missions</span></h2>
+        <div class="d-flex">
+          <div class="ad-border"></div>
+          <div class="ad-border-2"></div>
+        </div>
         <p class="my-4">
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. Separated they

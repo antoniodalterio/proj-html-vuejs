@@ -52,6 +52,10 @@ export default {
             We Are Here To Make Your <span>Website</span> Look More
             <span>Elegant</span> And Stylish!
           </h2>
+          <div class="d-flex">
+            <div class="ad-border"></div>
+            <div class="ad-border-2"></div>
+          </div>
 
           <button class="ad-btn my-5">view all</button>
         </div>

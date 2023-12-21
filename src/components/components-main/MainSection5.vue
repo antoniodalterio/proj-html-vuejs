@@ -93,6 +93,10 @@ export default {
         <h2 class="lh-base pe-5">
           With<span class="different-test"> Live Chat 24/7 </span>Support
         </h2>
+        <div class="d-flex my-2">
+          <div class="ad-border"></div>
+          <div class="ad-border-2"></div>
+        </div>
         <p class="my-4">
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. Separated they

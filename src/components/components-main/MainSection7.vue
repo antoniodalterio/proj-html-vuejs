@@ -39,10 +39,14 @@ export default {
 };
 </script>
 <template>
-  <section class="position-relative">
-    <h2 class="text-center">
+  <section class="position-relative d-flex flex-column align-items-center">
+    <h2 class="text-center mb-4">
       Latest News & Our <span class="different-test">Blog</span>
     </h2>
+    <div class="d-flex my-4">
+      <div class="ad-border"></div>
+      <div class="ad-border-2"></div>
+    </div>
     <ul class="row ad-container">
       <li v-for="li in cards" class="boxes col-4 position-relative list-group">
         <div class="w-100">
